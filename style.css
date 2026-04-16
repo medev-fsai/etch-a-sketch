@@ -1,3 +1,24 @@
 body {
     background-color: #f0eeee;
 }
+
+#sketch-container {
+    /*background-color: beige;*/
+    border: 2px solid black;
+    margin: 10px auto;
+    width: 480px;
+    height: 480px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0;
+}
+
+.item {
+    border: 1px solid black;
+    box-sizing: border-box;
+    flex: 1;
+}
+
+.dark {
+    background-color: black;
+}
